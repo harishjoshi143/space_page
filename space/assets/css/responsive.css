@@ -1,0 +1,248 @@
+@media (max-width: 1440px) {
+    :root {
+        --fs_xsm: 12px;
+        --fs_sm: 16px;
+        --fs_base: 18px;
+        --fs_md: 20px;
+        --fs_lg: 24px;
+        --fs_xl: 32px;
+        --fs_2xl: 70px;
+    }
+
+
+    .timeline {
+        background-image: url("../images/png/timeline.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 800px;
+        height: 1100px;
+    }
+    .minH_sm_100{
+        min-height: 100vh;
+    }
+}
+
+@media (max-width: 1200px) {
+    :root {
+        --fs_xsm: 12px;
+        --fs_sm: 16px;
+        --fs_base: 18px;
+        --fs_md: 20px;
+        --fs_lg: 24px;
+        --fs_xl: 32px;
+        --fs_2xl: 70px;
+    }
+
+    .overlay::after {
+        top: 9%;
+    }
+
+    .width_xl_80 {
+        width: 80%;
+    }
+
+    .mw_481 {
+        max-width: 481px;
+    }
+
+    .pos_text {
+        left: 31%;
+        bottom: 2%;
+    }
+
+}
+
+@media (max-width: 992px) {
+    :root {
+        --fs_xsm: 12px;
+        --fs_sm: 16px;
+        --fs_base: 16px;
+        --fs_md: 20px;
+        --fs_lg: 24px;
+        --fs_xl: 32px;
+        --fs_2xl: 70px;
+    }
+
+    .overlay::after {
+        top: 4.5%;
+    }
+
+    .width_lg_80 {
+        width: 70%;
+    }
+
+    .space_suit {
+        width: 300px;
+        height: 300px;
+    }
+
+    .timeline {
+        background-image: none !important;
+        width: 100%;
+    }
+
+    .blue_circle {
+        left: -34%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .blue_circle_2 {
+        left: -34%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .blue_circle_1 {
+        right: -30%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .blue_circle_3 {
+        right: -30%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .blue_circle_4 {
+        left: -34%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .pos_text {
+        left: 35%;
+        bottom: 4%;
+    }
+}
+
+@media (max-width: 768px) {
+    :root {
+        --fs_xsm: 12px;
+        --fs_sm: 16px;
+        --fs_base: 14px;
+        --fs_md: 16px;
+        --fs_lg: 24px;
+        --fs_xl: 32px;
+        --fs_2xl: 50px;
+    }
+
+    .width_lg_80 {
+        width: 70%;
+    }
+
+    .playNow_btn {
+        padding: 10px 30px 10px 30px;
+    }
+
+    .me_101 {
+        margin-right: 0px !important;
+    }
+
+    .space_suit {
+        width: 300px;
+        height: 300px;
+    }
+
+    .blue_circle {
+        left: -34%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .blue_circle_1 {
+        right: -32%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .blue_circle_3 {
+        right: -32%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .blue_circle_2 {
+        left: -34%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .blue_circle_4 {
+        left: -34%;
+        height: 100px;
+        width: 100px;
+    }
+
+    .timeline {
+        height: 850px;
+    }
+    .footer_img {
+        padding: 100px 0 10px 0;
+    }
+}
+
+@media (max-width: 576px) {
+    :root {
+        --fs_xsm: 12px;
+        --fs_sm: 13px;
+        --fs_base: 14px;
+        --fs_md: 15px;
+        --fs_lg: 16px;
+        --fs_xl: 32px;
+        --fs_2xl: 35px;
+    }
+
+    .overlay::after {
+        top: 2%;
+    }
+    .mt_101 {
+        margin-top: 50px;
+    }
+
+    .nav_links {
+        position: absolute;
+        flex-direction: column;
+        left: -100%;
+        width: 100%;
+        background-color: rgb(0, 0, 0) !important; 
+        bottom: 0;
+        height: calc(80vh - 48px);
+        transition: 500ms;
+    }
+ 
+
+    .playNow_btn {
+        padding: 8px 20px 8px 20px;
+    }
+
+    .width_sm_100 {
+        width: 100%;
+    }
+
+    nav ul li button {
+        font-size: 27px !important;
+    }
+
+    .py_223_167 {
+        padding: 130px 0 70px 0;
+    }
+
+    .gameplay_img {
+        min-height: 60vh;
+    }
+
+    .py_41 {
+        padding: 0px 0 0px 0 !important;
+    }
+
+    .pos_text {
+        left: 35%;
+        bottom: 4%;
+    }
+    .minH_100{
+        min-height: 80vh;
+    }
+   
+}

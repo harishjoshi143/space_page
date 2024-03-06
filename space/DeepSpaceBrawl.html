@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Deep-Space-Brawl</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="./assets/images/png/Deep Space Brawl 2.png" type="image/x-icon">
+    <!-- ------------------bootstrap.css-------------  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/DeepSpaceBrawl.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- ------------------slick.min.css-------------  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- ------------------theme.min.css-------------  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <header id="home" class="minH_100 minH_sm_100 d-flex flex-column bg_heroimg position-relative">
+        <nav>
+            <div class="container py_41">
+                <ul class="d-flex gap-5 justify-content-center justify-content-sm-end align-items-center z-1 nav_links">
+                    <li> 
+                        <a href="#" onclick="hide_nav()" class="text-white fw-normal fs_base">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about_us" onclick="hide_nav()" class="text-white fw-normal fs_base">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#games" onclick="hide_nav()" class="text-white fw-normal fs_base">Games</a>
+                    </li>
+                    <li>
+                        <a href="#roadmap" onclick="hide_nav()" class="text-white fw-normal fs_base">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#contact" onclick="hide_nav()" class="text-white fw-normal fs_base me_101">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-end">
+                    <i onclick="showNav()" class="ri-menu-3-line fs_xl text-white d-sm-none text-end me-4 cursor_pointer"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="container flex-grow-1 d-flex justify-content-center align-items-center">
+            <div class="text-center mb_ 150">
+                <img class="width_sm_100 width_lg_80
+                width_xl_80" src="./assets/images/png/Deep Space Brawl.png" alt="">
+                <p class="text-white fw-semibold fs_base mw_486 m-auto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod
+                    felis, dolor porta tincidunt consectetur nulla ac facilisis. Elit
+                    commodo amet, auctor et. Donec aliquet viverra in mauris nunc.
+                </p>
+                <button class="playNow_btn fw-semibold fs_lg text-white mt-5">
+                    Play Now
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="about_us" class="about_img overlay min-vh-100">
+            <img class="circle5 w-25" src="./assets/images/png/5circle.png" alt="">
+            <img class="urenus_img" src="./assets/images/png/urenus.png" alt="">
+            <div class="container">
+                <img class="jupiter_img" src="./assets/images/png/jupiter.png" alt="">
+                <div class="row align-items-center py_223_167 justify-content-center">
+                    <div class="col-sm-12 col-md-7 col-lg-6 z-1">
+                        <div class="space_suit"></div>
+                    </div>
+                    <div class="col-sm-12 col-md-10 col-lg-6 z-1 mt-5 mt-lg-0">
+                        <p class="text-white fw-semibold fs_2xl heading">About Us</p>
+                        <p class="text-white fw-normal fs_base lh_27 mt-sm-4 pt-2">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipiscing
+                            elit. Nulla augue in
+                            pharetra euismod at
+                            amet. Neque ultrices vitae
+                            at eget nisi, eget tellus tincidunt amet. Blandit pharetra, viverra feugiat consectetur
+                            neque risus. <br>
+                            At nunc, gravida nunc cursus gravida nulla enim. Tempor gravida massa eu, enim metus
+                            ridiculus feugiat at. Leo libero,
+                            ac feugiat nunc, elementum quis tristique.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="games" class="gameplay_img d-flex align-items-center justify-content-center position-relative">
+            <img class="astrocomp_img d-none d-xl-block" src="./assets/images/png/astrocomp.png" alt="">
+            <img class="uranus_1" src="./assets/images/png/uranus 1.png" alt="">
+            <img class="uranus_2" src="./assets/images/png/uranus_2.png" alt="">
+            <div class="container z-1">
+                <p class="text-white fw-semibold fs_2xl text-center heading">Game Play</p>
+                <div class="text-center mt-5 pt-4 mb-5">
+                    <img class="w-100" src="./assets/images/png/space.png" alt="">
+                </div>
+            </div>
+        </section>
+
+ 
+        <section class="pb-5 position-relative">
+            <div class="mt-5 pt-5 overflow-x-hidden">
+                <img class="space_alien" src="./assets/images/png/krst - faq alien space-final .png" alt="">
+                <div class="responsive mt-5 pt-5 rotate">
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                </div>
+                <div class="slider rotate mt-3">
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                    <div>
+                        <img class="transform_rotate" src="./assets/images/png/spaceman.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mb-sm-5 position-relative">
+            <img class="rocket_img d-none d-xl-block" src="./assets/images/png/rocket.png" alt="">
+            <img class="ufo_img d-none d-xl-block" src="./assets/images/png/UFO.png" alt="">
+            <img class="spacesuitman_img d-none d-xl-block" src="./assets/images/png/spacesuitman.png" alt="">
+            <img class="rocket2_img d-none d-xl-block" src="./assets/images/png/rocket_2.png" alt="">
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="mt-sm-5 pt-sm-5">
+                    <p class="text-white fw-medium fs_2xl text-center heading">Roadmap</p>
+
+
+                    <div class="timeline mt_101 position-relative">
+
+                        <div class="d-flex justify-content-center">
+                            <div class="ms-5">
+                                <p class="text-white ff_mandali fw-normal fs_xl">Phase 1</p>
+                                <p class="text-white fs_sm fw-normal w_393">Venenatis scelerisque sit cras amet risus
+                                    mattis.
+                                    Dignissim ipsum fermentum augue non risus fermentum.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-md-center mt-md-5 pt-5">
+                            <div class="mt-md-4 me-3 text-md-end ms-5">
+                                <p class="text-white ff_mandali fw-normal fs_xl">Phase 2</p>
+                                <p class="text-white fs_sm fw-normal w_250">Venenatis scelerisque sit cras amet risus
+                                    mattis.
+                                    Dignissim ipsum fermentum augue non risus fermentum.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-md-center pt-md-5 mt-5">
+                            <div class=" me-4 ms-5">
+                                <p class="text-white ff_mandali fw-normal fs_xl">Phase 3</p>
+                                <p class="text-white fs_sm fw-normal w_250">Venenatis scelerisque sit cras amet risus
+                                    mattis. Dignissim risus fermentum.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-md-center mt-md-5 pt-5">
+                            <div class="me-3 text-md-end ms-5">
+                                <p class="text-white ff_mandali fw-normal fs_xl">Phase 4</p>
+                                <p class="text-white fs_sm fw-normal w_250">Venenatis scelerisque sit cras amet risus
+                                    mattis.
+                                    Dignissim ipsum fermentum augue non risus fermentum.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start justify-content-lg-end mt-md-5 pt-5 ms-5">
+                            <div class="mt-md-5">
+                                <p class="text-white ff_mandali fw-normal fs_xl">Phase 5</p>
+                                <p class="text-white fs_sm fw-normal w_250">Venenatis scelerisque sit cras amet
+                                    risus
+                                    mattis.
+                                    Dignissim ipsum fermentum augue non risus fermentum.</p>
+                            </div>
+                        </div>
+                        <div class="blue_circle d-none d-md-block">
+                            <div class="space_man_ship_gif"></div>
+                            <img class="position-absolute right_set" src="./assets/images/png/right.png" alt="">
+                        </div>
+                        <div class="blue_circle_1 e d-none d-md-block">
+                            <div class="space_man_ship_gif"></div>
+                            <img class="position-absolute left_set" src="./assets/images/png/left.png" alt="">
+                        </div>
+                        <div class="blue_circle_2 e d-none d-md-block">
+                            <div class="space_man_ship_gif"></div>
+                            <img class="position-absolute right_set" src="./assets/images/png/right.png" alt="">
+                        </div>
+                        <div class="blue_circle_3 e d-none d-md-block">
+                            <div class="space_man_ship_gif"></div>
+                            <img class="position-absolute left_set" src="./assets/images/png/left.png" alt="">
+                        </div>
+                        <div class="blue_circle_4 e d-none d-md-block">
+                            <div class="space_man_ship_gif"></div>
+                            <img class="position-absolute right_set" src="./assets/images/png/right.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <div class="text-center mt-sm-5 pt-sm-5">
+                    <p class="text-white fw-medium fs_2xl mt-sm-4 pt-sm-2 heading">Team</p>
+                </div>
+                <div class="row mt-sm-5 pt-5 justify-content-center justify-content-lg-between">
+                    <div class="col-10 col-sm-6 col-lg-4 ">
+                        <div class="position-relative text-center px-4 ">
+                            <img class="w-100 cursor_pointer" src="./assets/images/png/girl_card.png" alt="">
+                            <p class="text-white fw-normal fs_base pos_text">Lorum Ipsum</p>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-6 col-lg-4 mt-4 mt-sm-0">
+                        <div class="position-relative text-center px-4">
+                            <img class="w-100 cursor_pointer"  src="./assets/images/png/boy_card.png" alt="">
+                            <p class="text-white fw-normal fs_base pos_text">Lorum Ipsum</p>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-6 col-lg-4 mt-5 mt-lg-0 ">
+                        <div class="position-relative text-center px-4 ">
+                            <img class="w-100 cursor_pointer" src="./assets/images/png/chiness_girl.png" alt="">
+                            <p class="text-white fw-normal fs_base pos_text">Lorum Ipsum</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main> 
+
+     <!-- Faqs section start from here -->
+     <section id="roadmap" class="position-relative" id="Faqs">
+        <img class="alien_2 d-none d-xl-block" src="./assets/images/png/alien_2.png" alt="">
+        <div class="container">
+            <div class="text-center pt-sm-5 mt-5">
+                <p class="text-white fw-medium fs_2xl heading heading">FAQs</p>
+            </div>
+            <div class="row mt-sm-5 pt-5">
+                <div class="col-12 col-xl-8">
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <p class="text-white fw-medium fs_md">1. Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit ?</p>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white  fw-normal fs_sm">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-3 pt-1">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    <p class="text-white fw-medium fs_md">2. Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit ?</p>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse show"
+                                aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white  fw-normal fs_sm">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-3 pt-1">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="true"
+                                    aria-controls="collapseThree">
+                                    <p class="text-white fw-medium fs_md">3. Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit ?</p>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse show"
+                                aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white  fw-normal fs_sm">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-3 pt-1">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="true"
+                                    aria-controls="collapseFour">
+                                    <p class="text-white fw-medium fs_md">4. Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit ?</p>
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse show"
+                                aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white  fw-normal fs_sm">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mt-3 pt-1">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="true"
+                                    aria-controls="collapseFive">
+                                    <p class="text-white fw-medium fs_md">5. Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit ?</p>
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse show"
+                                aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white  fw-normal fs_sm">Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+<!--  footer -->
+
+<footer class="blue_overlay">
+    <div class="d-flex justify-content-center align-items-center footer_img">
+        <div class="z-2">
+            <img class="footer_man_img d-none d-lg-block" src="./assets/images/png/krst - footer man -final 1.png" alt="">
+            <div class="ms-3">
+                <a href="#home"><img class="ms-5 cursor_pointer" src="./assets/images/png/Deep Space Brawl 2.png" alt="#"></a>
+            </div>
+            <div class="d-flex align-items-center mt-4 pt-3 flex-w rap">
+                <div class="white_circle ">
+                    <button><img src="./assets/images/png/1.png" alt="#ship"></button>
+                </div>
+                <div class="white_circle ms-3">
+                    <button><img src="./assets/images/png/2.png" alt="#twitter"></button>
+                </div>
+                <div class="white_circle ms-3">
+                    <button><img src="./assets/images/png/3.png" alt="#discord"></button>
+                </div>
+                <div class="white_circle ms-3">
+                    <button><img src="./assets/images/png/4.png" alt="#instagram"></button>
+                </div>
+                <div class="white_circle ms-3">
+                    <button><img src="./assets/images/png/5.png" alt="#facebook"></button>
+                </div>
+                <div class="white_circle ms-3">
+                    <button><img src="./assets/images/png/6.png" alt="#telegram"></button>
+                </div>
+            </div>
+            <div class="text-center mt-md-5 pt-md-5 ff_inter">
+                <p class="text-white fw_thin fs_xsm mt-5">Copyright@2022DeepSpaceBrawl.com</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <!-- ---------jquery.min.js-------  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+        integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- -----------slick.min.js--------  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script defer src="./assets/images/index.js"></script>
+</body>
+
+</html>

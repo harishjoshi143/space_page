@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&family=Mandali&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  list-style-type: none !important;
+  box-sizing: border-box !important;
+  font-family: "Grandstander", cursive;
+  scroll-behavior: smooth !important;
+}
+
+:root {
+  /* font-size */
+  --fs_xsm: 12px;
+  --fs_sm: 16px;
+  --fs_base: 18px;
+  --fs_md: 20px;
+  --fs_lg: 24px;
+  --fs_xl: 32px;
+  --fs_2xl: 70px;
+
+  /* font-weight */
+  --fw_thin: 100;
+}
+
+/* font-size */
+
+.fs_xsm {
+  font-size: var(--fs_xsm);
+}
+
+.fs_sm {
+  font-size: var(--fs_sm);
+}
+
+.fs_base {
+  font-size: var(--fs_base);
+}
+
+.fs_md {
+  font-size: var(--fs_md);
+}
+
+.fs_lg {
+  font-size: var(--fs_lg);
+}
+
+.fs_xl {
+  font-size: var(--fs_xl);
+}
+
+.fs_2xl {
+  font-size: var(--fs_2xl);
+}
+
+/* font-weight */
+
+.fw_thin {
+  font-weight: var(--fw_thin);
+}
+
+body {
+  background-color: #08012c !important;
+}
+
+p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+ul,
+ol {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.ff_mandali {
+  font-family: "Mandali", sans-serif;
+}
+
+.bg_heroimg {
+  background-image: url("../images/png/header.img.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.about_img {
+  background-image: url("../images/png/about_usimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -8%;
+}
+
+.me_101 {
+  margin-right: 101px;
+}
+
+.mb_150 {
+  margin-bottom: 150px;
+}
+
+nav {
+  background: rgba(8, 1, 44, 1);
+  opacity: 0.8;
+}
+
+.py_41 {
+  padding: 41px 0 41px 0 !important;
+}
+
+.playNow_btn {
+  padding: 15px 50px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  display: inline-block;
+  background: linear-gradient(180deg, #3d78fe 0%, #ff00f4 100%);
+}
+
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.mw_486 {
+  max-width: 486px;
+}
+
+.overlay {
+  position: relative;
+}
+
+.overlay::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 70%;
+  top: 11%;
+}
+
+.jupiter_img {
+  position: absolute;
+  top: 13%;
+  left: 1%;
+  z-index: 2;
+}
+
+.space_suit {
+  background-image: url("../images/png/spacesuit.gif");
+  background-size: 100% 100%;
+  width: 398px;
+  height: 400px;
+  border: 3.36px solid rgba(26, 139, 215, 1);
+}
+
+.py_223_167 {
+  padding: 330px 0 167px 0;
+}
+
+.lh_27 {
+  line-height: 27px;
+}
+
+.mw_481 {
+  max-width: 481px;
+}
+
+.circle5 {
+  position: absolute;
+  left: 0%;
+  bottom: 2%;
+}
+
+.urenus_img {
+  position: absolute;
+  top: 15%;
+  right: 0;
+}
+
+.uranus_1 {
+  position: absolute;
+  top: 2%;
+  left: 18%;
+}
+
+.uranus_2 {
+  position: absolute;
+  right: 0;
+}
+
+.gameplay_img {
+  background-image: url("../images/png/gameplayimg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+
+.astrocomp_img {
+  position: absolute;
+  top: -2.5%;
+  right: 11%;
+}
+
+.space_alien {
+  position: absolute;
+  right: 0;
+  top: -10%;
+}
+
+.rotate {
+  transform: rotate(4.54deg);
+}
+
+.transform_rotate {
+  transform: rotate(-4deg);
+}
+
+.mt_101 {
+  margin-top: 101px;
+}
+
+.blue_circle {
+  position: absolute;
+  top: -1%;
+  left: -5%;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #2063c6 13.87%, #5096d1 96.81%);
+}
+
+.blue_circle_1 {
+  position: absolute;
+  top: 23%;
+  right: -3%;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #2063c6 13.87%, #5096d1 96.81%);
+}
+
+.blue_circle_2 {
+  position: absolute;
+  top: 43%;
+  left: -5%;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #2063c6 13.87%, #5096d1 96.81%);
+}
+
+.blue_circle_3 {
+  position: absolute;
+  bottom: 23%;
+  right: -4%;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #2063c6 13.87%, #5096d1 96.81%);
+}
+
+.blue_circle_4 {
+  position: absolute;
+  bottom: -2%;
+  left: 28%;
+  height: 125px;
+  width: 125px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #2063c6 13.87%, #5096d1 96.81%);
+}
+
+.space_man_ship_gif {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-image: url("../images/png/flying.gif");
+  width: 88px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 88px;
+  z-index: 2;
+}
+
+.right_set {
+  top: 36%;
+  right: -82%;
+}
+
+.left_set {
+  top: 35%;
+  left: -82%;
+}
+
+.rocket_img {
+  position: absolute;
+  top: 5%;
+  right: 0;
+}
+
+.ufo_img {
+  position: absolute;
+  top: 33%;
+  left: 0;
+}
+
+.spacesuitman_img {
+  position: absolute;
+  right: 0;
+  bottom: 27%;
+}
+
+.rocket2_img {
+  position: absolute;
+  bottom: -4%;
+}
+
+.harish_img {
+  height: 318px;
+  width: 238px;
+  position: absolute;
+  top: 10%;
+  left: 23%;
+}
+
+.pos_text {
+  position: absolute;
+  bottom: 4%;
+  left: 37%;
+}
+
+.w_393 {
+  max-width: 393px;
+}
+
+.w_250 {
+  max-width: 250px;
+}
+.alien_2{
+  position: absolute;
+  right: 9%;
+  bottom: 6%;
+}
+
+
+/* accordion classes  */
+
+.accordion-item {
+  background: transparent;
+}
+.accordion-item {
+  color: white !important;
+  background-color: transparent !important;
+  border: 1px solid rgba(30, 140, 214, 1) !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: inset 0 calc(-1 var(--bs-accordion-border-width)) 0
+    var(--bs-accordion-border-color);
+  color: white !important;
+}
+.accordion-button {
+  background-color: transparent !important;
+  color: white !important;
+}
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: transparent !important;
+}
+.accordion-item {
+  border-radius: 8px;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/png/down.png") !important;
+}
+.accordion-button::after {
+  content: "";
+  background-image: url("../images/png/uo.png") !important;
+}
+.accordion-body {
+  margin-left: 48px !important;
+  padding: 0 !important;
+  margin-bottom: 10px !important;
+}
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
+}
+.footer_img {
+  background-image: url("../images/png/footer_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 180px 0 10px 0;
+}
+.blue_overlay {
+  position: relative;
+}
+.blue_overlay::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: #08012c !important;
+  height: 100%;
+  opacity: 90%;
+  left: 0;
+  top: 0;
+}
+.white_circle {
+  width: 41.81px;
+  height: 41.42px;
+  border-radius: 50%;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 400ms;
+}
+.footer_man_img {
+  position: absolute;
+  left: 0;
+}
+.heading {
+  -webkit-text-stroke: 1px rgba(186, 94, 167, 1);
+}
+
+.white_circle:hover{
+  transform:  translateY(-15px);
+}
+
+nav ul li a:hover{
+-webkit-text-stroke-width: 0.5px;
+}
+
+.heading{
+  -webkit-text-stroke: 1px rgba(186, 94, 167,1);
+}
